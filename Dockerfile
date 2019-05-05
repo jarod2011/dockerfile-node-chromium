@@ -1,6 +1,6 @@
 FROM node:10-alpine
 
-LABEL maintainer=="jarod2014<xinghen249@gmail.com>"
+LABEL maintainer="jarod2014<xinghen249@gmail.com>"
 
 RUN apk update && apk upgrade && \
     echo @edge http://nl.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories && \
